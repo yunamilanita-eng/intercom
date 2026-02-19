@@ -1,0 +1,29 @@
+{
+  "name": "intercom-dice",
+  "version": "1.0.0",
+  "description": "Provably-fair decentralized dice roller via P2P commit-reveal — Intercom Vibe Competition",
+  "main": "index.js",
+  "type": "module",
+  "pear": {
+    "name": "intercom-dice",
+    "type": "terminal",
+    "links": []
+  },
+  "scripts": {
+    "start": "node index.js",
+    "pear": "pear run . dice1"
+  },
+  "keywords": [
+    "p2p", "dice", "commit-reveal", "provably-fair",
+    "intercom", "trac", "hyperswarm", "holepunch", "pear", "termux"
+  ],
+  "author": "[INSERT_YOUR_TRAC_ADDRESS_HERE]",
+  "license": "MIT",
+  "dependencies": {
+    "hyperswarm": "^4.7.15",
+    "b4a": "^1.6.6"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
